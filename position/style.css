@@ -1,0 +1,191 @@
+body{
+     min-height: 100vh;
+
+}
+
+
+
+/*  Position Section Start */
+.container{
+     height: 100%;
+     margin-inline: auto;
+}
+/*  Position Section End */
+
+
+/*  Relative-Position Start */
+.box{
+     border: 1px solid plum; 
+}
+
+.boy{
+     position: relative;
+     left: 50px;
+}
+
+/*  Relative-Position End */
+
+/*  Absolute-Position Start */
+.boxx{
+     border: 1px solid plum; 
+}
+
+.ringg{
+     position: absolute;
+     left: 200px;
+}
+/*  Absolute-Position End */
+
+/* Sticky-Position Start */
+.dummy{
+     border: 1px solid red;
+          width: 300px;
+     height: 300px;
+}
+
+.boxs{
+     border: 1px solid black;
+     width: 300px;
+     height: 300px;
+}
+
+.rings{
+     position: sticky;
+     top: 0px;
+}
+
+.bo{
+     border: 2px solid blue;
+     height: 300px;
+     width: 250px;
+}
+
+/* Sticky-Position End */
+
+
+/* Fixed-Position Start */
+.fix{
+     border: 2px solid tomato;
+     height: 200px;
+}
+
+.ringf{
+     position: fixed;
+     left: 1300px;
+     top: 500px;
+
+}
+/* Fixed-Position End */
+
+/* Z-index Section Start */
+.z-box{
+     position: relative;
+}
+.z-ring{
+     top: -65px;
+     z-index: 5;
+}
+
+.z-boy{
+     z-index: 10;
+}
+.z-water{
+     top: -150px;
+}
+
+/* Z-index Section End */
+
+
+/* Common Style Start */
+
+
+
+/* Common Style End */
+
+
+
+/* Footer Start */
+footer{
+     text-align: center;
+}
+/* Footer End */
+
+/*  Header Section Start */
+header{
+     background-color: tomato;
+     position: sticky;
+     z-index: 1000;
+     top: 10px;
+}
+
+.navbar-container{
+     display: flex;
+     align-items: center;
+     padding: 5px 10px;
+}
+
+.header-title{
+     background-color:white;
+     padding: 10px;
+     border-radius: 15px;
+}
+
+.header-title a{
+     text-decoration: none;
+     color: black;
+     
+}
+
+.header-title a:hover{
+     text-decoration: underline;
+     
+     
+}
+
+.header-title:hover{
+     background-color: rgb(243, 220, 220);
+}
+
+ul li{
+     list-style: none;
+}
+
+ul li a{
+     text-decoration: none;
+}
+
+.nav-left-container{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+}
+
+.nav-left-container li{
+     padding: 10px; 
+     margin: 1px 1px;
+}
+.nav-left-container li a{
+     color: black;
+     font-size: 1.5rem; 
+     background-color: tan;
+     padding: 10px;
+     border-radius: 10px;
+}
+
+.nav-left-container li a:hover{
+     background-color: rgb(221, 196, 161);
+     text-decoration: underline;
+}
+/*  Header Section End */
+
+/* Main & Section Css Start  */
+main{
+     min-height: 100vh;
+}
+
+main section {
+     min-height: 100vh;
+     padding-top: 100px;
+}
+
+/* Main & Section Css End  */
